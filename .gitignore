@@ -1,0 +1,49 @@
+# ----------------------------
+# Terraform
+# ----------------------------
+*.tfstate
+.tfstate.
+.crash
+*.log
+.terraform/
+.terraform.lock.hcl
+
+# Ignore variable files with sensitive info (optional)
+# Uncomment next line if your terraform.tfvars contains secrets
+# terraform.tfvars
+
+# ----------------------------
+# Docker
+# ----------------------------
+# No need to ignore Dockerfile — keep it in Git
+# Ignore build cache if present
+**/docker-cache/
+**/.docker/
+
+# ----------------------------
+# OS & Editor Junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# Node / npm (if app uses npm)
+# ----------------------------
+node_modules/
+npm-debug.log
+
+# ----------------------------
+# Python (if scripts used)
+# ----------------------------
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------
+# Jenkins
+# ----------------------------
+workspace/
