@@ -18,6 +18,11 @@ spec:
       containers:
         - name: portfolio
           image: rahuldeokate/agrocd:v1
+          resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
           ports:
             - containerPort: 80
+          
 
