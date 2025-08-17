@@ -1,0 +1,12 @@
+vpc_cidr = "10.0.0.0/16"
+cidr_subnet_1 = "10.0.1.0/24"
+cidr_subnet_2 = "10.0.2.0/24"
+availability_zone_1 = "ap-south-1a"
+availability_zone_2 = "ap-south-1b"
+cluster_name = "agrocd-cluster"
+desired_size = 1
+max_size = 1
+min_size = 1
+instance_type = ["t2.micro"]
+ami = "ami-0d0ad8bb301edb745"
+node_group_name = "workers-01"
